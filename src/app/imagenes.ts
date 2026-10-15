@@ -6,7 +6,7 @@
 const B = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const IMG = {
-  logo: `${B}/images/logo.png`,
+  logo: `${B}/images/logo.jpg`,
   portada: `${B}/images/portada.jpg`,
   rodadaNocturna: `${B}/images/rodada-nocturna.jpg`,
   vueltaAlPerro: `${B}/images/vuelta-al-perro.jpg`,
@@ -20,7 +20,6 @@ export const IMG = {
 export const BASE = B;
 
 export const REDES = {
-  instagram: "https://www.instagram.com/originarios_band_of_brothers",
-  // Pegar acá el enlace real de la página de Facebook cuando lo tengas
-  facebook: "https://www.facebook.com/",
+  instagram: "https://www.instagram.com/originarios_band_of_brothers/?hl=es",
+  facebook: "https://www.facebook.com/profile.php?id=61578624557053",
 } as const;
